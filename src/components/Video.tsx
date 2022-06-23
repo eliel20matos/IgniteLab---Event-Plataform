@@ -2,9 +2,9 @@ import React from 'react';
 
 function Video() {
     return (
-        <h1>
-            Video
-        </h1>
+        <div className='flex-1'>
+            video
+        </div>
     );
 }
 
