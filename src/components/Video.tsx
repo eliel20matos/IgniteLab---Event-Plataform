@@ -14,17 +14,29 @@ function Video() {
                         <h1 className='text-2xl font-bold'>
                             Aula 1 - Abertura do Ignite Lab
                         </h1>
-                        <p className='mt-4 text-gray-200'>
+                        <p className='mt-4 text-gray-200 leading-relaxed'>
                             Nessa aula vamos dar início ao projeto criando a estrutura base da aplicação utilizando ReactJs, Vite e TailwindCSS
                         </p>
+
+                        <div className='flex items-center gap-4 mt-6'>
+                            <img 
+                                className='h-16 w-16 rounded-full border-2 border-blue-500'
+                                src="https://github.com/eliel20matos.png"
+                                alt="" />
+                            <div className='reading-relaxed'>
+                                <strong className='font-bold text-2xl block'>Eliel Matos</strong>
+                                <span className='text-gray-200 text-sm block'>Web developer @Atto Seeds</span>
+                            </div>
+                        </div>
+
                     </div>
                     <div className='flex flex-col gap-4'>
                         <a href="" className='p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors'>
-                            <DiscordLogo size={24}/>
+                            <DiscordLogo size={24} />
                             Comunidade do Discord
                         </a>
                         <a href="" className='p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors'>
-                            <Lightning size={24}/>
+                            <Lightning size={24} />
                             Acesse o desafio
                         </a>
                     </div>
