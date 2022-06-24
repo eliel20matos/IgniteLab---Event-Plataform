@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
+import Evento from "./pages/Evento";
 
 export default function Router() {
 return (
     <Routes>
         <Route path="/" element={<h1>Home</h1>}/>
-        <Route path="/event" element={<h1>Event</h1>}/>
+        <Route path="/event/lesson/:slug" element={<Evento/>}/>
     </Routes>
 )
 }
